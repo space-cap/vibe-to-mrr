@@ -1,0 +1,120 @@
+{
+  "nodes": [
+    {
+      "id": "hub-center",
+      "type": "text",
+      "text": "# 🚀 바이브코딩 수익화 사령탑\n\n**목표:** 코딩 초보에서 월 부업 수익(MRR) 달성!\n- 💡 **핵심 철학:** 문법 암기 NO, 빠른 프로토타이핑 YES",
+      "x": -150,
+      "y": 0,
+      "width": 320,
+      "height": 180,
+      "color": "1"
+    },
+    {
+      "id": "step-1",
+      "type": "text",
+      "text": "### 🌱 1단계 (1~2주차)\n**AI 감잡기 & 1분 배포**\n- 뼈대와 디자인 눈치채기\n- [[04_지식창고/초보자를_위한_웹_기술용어_사전|초보 웹 용어 10선]]\n- [[04_지식창고/바이브코딩_치트키_프롬프트|치트키 프롬프트]]로 첫 페이지 생성\n- Vercel 무료 배포 성공하기",
+      "x": -520,
+      "y": -320,
+      "width": 320,
+      "height": 220,
+      "color": "2"
+    },
+    {
+      "id": "step-2",
+      "type": "text",
+      "text": "### 🛠️ 2단계 (3~4주차)\n**첫 디지털 상품 완성**\n- [[05_프로젝트/첫_번째_미니웹앱_도전기|프리랜서 계산기 완성]]\n- [[Templates/템플릿_아이디어_기획서|아이디어 기획 템플릿]]\n- 모바일 반응형 최적화\n- 후원(토스/Coffee) 버튼 달기",
+      "x": 220,
+      "y": -320,
+      "width": 320,
+      "height": 220,
+      "color": "3"
+    },
+    {
+      "id": "step-3",
+      "type": "text",
+      "text": "### 💎 3단계 (5~8주차)\n**유료 디지털 상품 판매 (패시브)**\n- 크몽 / Gumroad 상품 등록\n- 웹 템플릿 + 노션 가이드 번들링\n- 업무 생산성 크롬 확장 프로그램\n- 첫 유료 판매 달성!",
+      "x": -520,
+      "y": 280,
+      "width": 320,
+      "height": 220,
+      "color": "4"
+    },
+    {
+      "id": "step-4",
+      "type": "text",
+      "text": "### 🤝 4단계 (9~12주차)\n**외주 / 프리랜싱 수주 (목돈)**\n- 포트폴리오 데모 사이트 3종\n- [[Templates/템플릿_외주_고객_상담_체크리스트|외주 상담 체크리스트]]\n- 1박 2일 초고속 랜딩페이지 납품\n- 건당 30만~100만 원 수주",
+      "x": 220,
+      "y": 280,
+      "width": 320,
+      "height": 220,
+      "color": "5"
+    },
+    {
+      "id": "doc-dashboard",
+      "type": "file",
+      "file": "00_대시보드_수익화_사령탑.md",
+      "x": -150,
+      "y": -320,
+      "width": 300,
+      "height": 180
+    },
+    {
+      "id": "doc-strategy",
+      "type": "file",
+      "file": "02_수익화_트랙_전략_가이드.md",
+      "x": -150,
+      "y": 320,
+      "width": 300,
+      "height": 180
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-hub-to-s1",
+      "fromNode": "hub-center",
+      "fromSide": "top",
+      "toNode": "step-1",
+      "toSide": "bottom",
+      "label": "1단계 시작"
+    },
+    {
+      "id": "e-s1-to-s2",
+      "fromNode": "step-1",
+      "fromSide": "right",
+      "toNode": "doc-dashboard",
+      "toSide": "left"
+    },
+    {
+      "id": "e-dash-to-s2",
+      "fromNode": "doc-dashboard",
+      "fromSide": "right",
+      "toNode": "step-2",
+      "toSide": "left",
+      "label": "2단계 발전"
+    },
+    {
+      "id": "e-s2-to-s3",
+      "fromNode": "hub-center",
+      "fromSide": "bottom",
+      "toNode": "step-3",
+      "toSide": "top",
+      "label": "디지털 상품 트랙"
+    },
+    {
+      "id": "e-s2-to-s4",
+      "fromNode": "hub-center",
+      "fromSide": "bottom",
+      "toNode": "step-4",
+      "toSide": "top",
+      "label": "외주 수주 트랙"
+    },
+    {
+      "id": "e-hub-to-strat",
+      "fromNode": "hub-center",
+      "fromSide": "bottom",
+      "toNode": "doc-strategy",
+      "toSide": "top"
+    }
+  ]
+}
