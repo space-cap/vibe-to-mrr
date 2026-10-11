@@ -13,20 +13,20 @@
     {
       "id": "step-1",
       "type": "text",
-      "text": "### 🌱 1단계 (1~2주차)\n**AI 감잡기 & 1분 배포**\n- 뼈대와 디자인 눈치채기\n- [[04_지식창고/초보자를_위한_웹_기술용어_사전|초보 웹 용어 10선]]\n- [[04_지식창고/바이브코딩_치트키_프롬프트|치트키 프롬프트]]로 첫 페이지 생성\n- Vercel 무료 배포 성공하기",
-      "x": -520,
-      "y": -320,
-      "width": 320,
+      "text": "### 🌱 1단계 (1~2주차)\n**AI 감잡기 & 1분 배포**\n- 뼈대와 디자인 눈치채기\n- [[04_지식창고/초보자를_위한_웹_기술용어_사전|초보 웹 용어 10선]]\n- [[04_지식창고/바이브코딩_치트키_프롬프트|치트키 프롬프트]]로 첫 페이지 생성\n- [[04_지식창고/1분_무료_웹_배포_완벽_가이드|1분 무료 배포 완벽 가이드]]",
+      "x": -550,
+      "y": -340,
+      "width": 340,
       "height": 220,
       "color": "2"
     },
     {
       "id": "step-2",
       "type": "text",
-      "text": "### 🛠️ 2단계 (3~4주차)\n**첫 디지털 상품 완성**\n- [[05_프로젝트/첫_번째_미니웹앱_도전기|프리랜서 계산기 완성]]\n- [[Templates/템플릿_아이디어_기획서|아이디어 기획 템플릿]]\n- 모바일 반응형 최적화\n- 후원(토스/Coffee) 버튼 달기",
-      "x": 220,
-      "y": -320,
-      "width": 320,
+      "text": "### 🛠️ 2단계 (3~4주차)\n**첫 디지털 상품 완성**\n- [[05_프로젝트/첫_번째_미니웹앱_도전기|프리랜서 계산기 완성]]\n- [[Templates/템플릿_아이디어_기획서|아이디어 기획 템플릿]]\n- [[04_지식창고/돈_되는_바이브코딩_아이디어_30선|아이디어 30선 발굴]]\n- 후원(토스/Coffee) 버튼 달기",
+      "x": 230,
+      "y": -340,
+      "width": 340,
       "height": 220,
       "color": "3"
     },
@@ -34,19 +34,19 @@
       "id": "step-3",
       "type": "text",
       "text": "### 💎 3단계 (5~8주차)\n**유료 디지털 상품 판매 (패시브)**\n- 크몽 / Gumroad 상품 등록\n- 웹 템플릿 + 노션 가이드 번들링\n- 업무 생산성 크롬 확장 프로그램\n- 첫 유료 판매 달성!",
-      "x": -520,
+      "x": -550,
       "y": 280,
-      "width": 320,
+      "width": 340,
       "height": 220,
       "color": "4"
     },
     {
       "id": "step-4",
       "type": "text",
-      "text": "### 🤝 4단계 (9~12주차)\n**외주 / 프리랜싱 수주 (목돈)**\n- 포트폴리오 데모 사이트 3종\n- [[Templates/템플릿_외주_고객_상담_체크리스트|외주 상담 체크리스트]]\n- 1박 2일 초고속 랜딩페이지 납품\n- 건당 30만~100만 원 수주",
-      "x": 220,
+      "text": "### 🤝 4단계 (9~12주차)\n**외주 / 프리랜싱 수주 (목돈)**\n- 포트폴리오 데모 사이트 3종\n- [[Templates/템플릿_외주_고객_상담_체크리스트|외주 상담 체크리스트]]\n- [[Templates/템플릿_외주_표준_용역계약서_및_견적서|표준 계약서 & 견적서]]\n- 건당 30만~100만 원 수주",
+      "x": 230,
       "y": 280,
-      "width": 320,
+      "width": 340,
       "height": 220,
       "color": "5"
     },
@@ -55,18 +55,46 @@
       "type": "file",
       "file": "00_대시보드_수익화_사령탑.md",
       "x": -150,
-      "y": -320,
+      "y": -340,
       "width": 300,
       "height": 180
     },
     {
-      "id": "doc-strategy",
+      "id": "doc-mrr",
       "type": "file",
-      "file": "02_수익화_트랙_전략_가이드.md",
+      "file": "00_수익_트래커_MRR_대시보드.md",
       "x": -150,
-      "y": 320,
+      "y": 280,
       "width": 300,
-      "height": 180
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "doc-deploy",
+      "type": "file",
+      "file": "04_지식창고/1분_무료_웹_배포_완벽_가이드.md",
+      "x": -950,
+      "y": -340,
+      "width": 320,
+      "height": 200
+    },
+    {
+      "id": "doc-ideas",
+      "type": "file",
+      "file": "04_지식창고/돈_되는_바이브코딩_아이디어_30선.md",
+      "x": 640,
+      "y": -340,
+      "width": 320,
+      "height": 200
+    },
+    {
+      "id": "doc-contract",
+      "type": "file",
+      "file": "Templates/템플릿_외주_표준_용역계약서_및_견적서.md",
+      "x": 640,
+      "y": 280,
+      "width": 320,
+      "height": 200
     }
   ],
   "edges": [
@@ -94,7 +122,7 @@
       "label": "2단계 발전"
     },
     {
-      "id": "e-s2-to-s3",
+      "id": "e-hub-to-s3",
       "fromNode": "hub-center",
       "fromSide": "bottom",
       "toNode": "step-3",
@@ -102,7 +130,7 @@
       "label": "디지털 상품 트랙"
     },
     {
-      "id": "e-s2-to-s4",
+      "id": "e-hub-to-s4",
       "fromNode": "hub-center",
       "fromSide": "bottom",
       "toNode": "step-4",
@@ -110,11 +138,33 @@
       "label": "외주 수주 트랙"
     },
     {
-      "id": "e-hub-to-strat",
+      "id": "e-hub-to-mrr",
       "fromNode": "hub-center",
       "fromSide": "bottom",
-      "toNode": "doc-strategy",
-      "toSide": "top"
+      "toNode": "doc-mrr",
+      "toSide": "top",
+      "label": "수익 기록"
+    },
+    {
+      "id": "e-s1-to-deploy",
+      "fromNode": "step-1",
+      "fromSide": "left",
+      "toNode": "doc-deploy",
+      "toSide": "right"
+    },
+    {
+      "id": "e-s2-to-ideas",
+      "fromNode": "step-2",
+      "fromSide": "right",
+      "toNode": "doc-ideas",
+      "toSide": "left"
+    },
+    {
+      "id": "e-s4-to-contract",
+      "fromNode": "step-4",
+      "fromSide": "right",
+      "toNode": "doc-contract",
+      "toSide": "left"
     }
   ]
 }
